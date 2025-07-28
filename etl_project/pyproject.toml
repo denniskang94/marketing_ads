@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "etl-project"
+version = "0.1.0"
+description = "Marketing ETL"
+authors = ["jeehun.d.kang@gmail.com"]
+readme = "README.md"
+package-mode = false
+packages = []
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+dagster = "^1.11.3"
+dagster-webserver = "^1.11.3"
+snowflake-connector-python = "^3.16.0"
+google-cloud-storage = "^3.2.0"
+pandas = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dagster]
+module_name = "marketing_etl"

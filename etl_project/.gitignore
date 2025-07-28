@@ -1,0 +1,18 @@
+# Environment config
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# DBT build artifacts
+dbt_logs/
+target/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.zip
+
