@@ -1,0 +1,292 @@
+[0m00:54:03.867533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103db01a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b3b890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b3bb10>]}
+
+
+============================== 00:54:03.881837 | 301677d2-8e12-4090-a315-0d209172bbff ==============================
+[0m00:54:03.881837 [info ] [MainThread]: Running with dbt=1.10.5
+[0m00:54:03.882068 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/dennis/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init marketing_ads_dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:54:03.905815 [info ] [MainThread]: Creating dbt configuration folder at /Users/dennis/.dbt
+[0m00:54:03.907134 [debug] [MainThread]: Starter project path: /Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/include/starter_project
+[0m00:54:03.909781 [info ] [MainThread]: 
+Your new dbt project "marketing_ads_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:54:03.909922 [info ] [MainThread]: Setting up your profile.
+[0m00:57:31.213307 [info ] [MainThread]: Profile marketing_ads_dbt written to /Users/dennis/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:57:31.218289 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 207.37567, "process_in_blocks": "0", "process_kernel_time": 0.346371, "process_mem_max_rss": "168181760", "process_out_blocks": "0", "process_user_time": 1.569118}
+[0m00:57:31.220239 [debug] [MainThread]: Command `dbt init` succeeded at 00:57:31.220058 after 207.38 seconds
+[0m00:57:31.220878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075109d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107555eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10752c5a0>]}
+[0m00:57:31.221396 [debug] [MainThread]: Flushing usage events
+[0m00:57:31.541949 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:57:50.889959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10788fa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d9f750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d9f890>]}
+
+
+============================== 00:57:50.892112 | 17fd2ed6-c3d8-40ad-bd6d-1fadc28492bf ==============================
+[0m00:57:50.892112 [info ] [MainThread]: Running with dbt=1.10.5
+[0m00:57:50.892334 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:57:50.900665 [info ] [MainThread]: dbt version: 1.10.5
+[0m00:57:50.900827 [info ] [MainThread]: python version: 3.13.5
+[0m00:57:50.900928 [info ] [MainThread]: python path: /Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/bin/python
+[0m00:57:50.901021 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit-Mach-O
+[0m00:57:51.042216 [info ] [MainThread]: Using profiles dir at /Users/dennis/.dbt
+[0m00:57:51.042401 [info ] [MainThread]: Using profiles.yml file at /Users/dennis/.dbt/profiles.yml
+[0m00:57:51.042511 [info ] [MainThread]: Using dbt_project.yml file at /Users/dennis/projects/marketing_ads_dbt/dbt_project.yml
+[0m00:57:51.043012 [info ] [MainThread]: adapter type: snowflake
+[0m00:57:51.043109 [info ] [MainThread]: adapter version: 1.10.0
+[0m00:57:51.043223 [info ] [MainThread]: Configuration:
+[0m00:57:51.043309 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:57:51.043399 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m00:57:51.043486 [info ] [MainThread]: Required dependencies:
+[0m00:57:51.043589 [debug] [MainThread]: Executing "git --help"
+[0m00:57:51.052426 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m00:57:51.052735 [debug] [MainThread]: STDERR: "b''"
+[0m00:57:51.052845 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m00:57:51.052949 [info ] [MainThread]: Connection:
+[0m00:57:51.053077 [info ] [MainThread]:   account: DGRMLDH-FT61206
+[0m00:57:51.053184 [info ] [MainThread]:   user: WPDNTMDBS
+[0m00:57:51.053269 [info ] [MainThread]:   database: ANALYTICS
+[0m00:57:51.053351 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m00:57:51.053435 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m00:57:51.053520 [info ] [MainThread]:   schema: marketing_ads
+[0m00:57:51.053606 [info ] [MainThread]:   authenticator: None
+[0m00:57:51.053691 [info ] [MainThread]:   oauth_client_id: None
+[0m00:57:51.053787 [info ] [MainThread]:   query_tag: None
+[0m00:57:51.053876 [info ] [MainThread]:   client_session_keep_alive: False
+[0m00:57:51.053970 [info ] [MainThread]:   host: None
+[0m00:57:51.054051 [info ] [MainThread]:   port: None
+[0m00:57:51.054134 [info ] [MainThread]:   proxy_host: None
+[0m00:57:51.054217 [info ] [MainThread]:   proxy_port: None
+[0m00:57:51.054298 [info ] [MainThread]:   protocol: None
+[0m00:57:51.054392 [info ] [MainThread]:   connect_retries: 1
+[0m00:57:51.054491 [info ] [MainThread]:   connect_timeout: None
+[0m00:57:51.054574 [info ] [MainThread]:   retry_on_database_errors: False
+[0m00:57:51.054760 [info ] [MainThread]:   retry_all: False
+[0m00:57:51.054873 [info ] [MainThread]:   insecure_mode: False
+[0m00:57:51.054966 [info ] [MainThread]:   reuse_connections: True
+[0m00:57:51.055057 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m00:57:51.055324 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m00:57:51.098612 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m00:57:51.122431 [debug] [MainThread]: Using snowflake connection "debug"
+[0m00:57:51.122591 [debug] [MainThread]: On debug: select 1 as id
+[0m00:57:51.122687 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:57:52.939826 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.817 seconds
+[0m00:57:52.941879 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m00:57:52.942388 [info ] [MainThread]: [31m1 check failed:[0m
+[0m00:57:52.942762 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/dennis/projects/marketing_ads_dbt/dbt_project.yml> not found
+
+[0m00:57:52.946298 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.0810206, "process_in_blocks": "0", "process_kernel_time": 0.148654, "process_mem_max_rss": "150667264", "process_out_blocks": "0", "process_user_time": 0.693246}
+[0m00:57:52.946973 [debug] [MainThread]: Command `dbt debug` failed at 00:57:52.946862 after 2.08 seconds
+[0m00:57:52.947428 [debug] [MainThread]: Connection 'debug' was left open.
+[0m00:57:52.947716 [debug] [MainThread]: On debug: Close
+[0m00:57:53.189343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109c4e190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0b2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109976e00>]}
+[0m00:57:53.189748 [debug] [MainThread]: Flushing usage events
+[0m00:57:53.502809 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:59:08.104490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10680ba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112a3f750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112a3f890>]}
+
+
+============================== 00:59:08.106875 | 6f318ca7-59b1-4eaf-86cd-2bb140ccc131 ==============================
+[0m00:59:08.106875 [info ] [MainThread]: Running with dbt=1.10.5
+[0m00:59:08.107124 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init .', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:00:04.921500 [info ] [MainThread]: A project called marketing_ads_dbt already exists here.
+[0m01:00:04.926385 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 56.84784, "process_in_blocks": "0", "process_kernel_time": 0.085685, "process_mem_max_rss": "106905600", "process_out_blocks": "0", "process_user_time": 0.495583}
+[0m01:00:04.927163 [debug] [MainThread]: Command `dbt init` succeeded at 01:00:04.927042 after 56.85 seconds
+[0m01:00:04.927620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112af08a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112afa9f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1128e56a0>]}
+[0m01:00:04.928090 [debug] [MainThread]: Flushing usage events
+[0m01:00:05.272191 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:00:41.878876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074dfa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089f7750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089f7890>]}
+
+
+============================== 01:00:41.881063 | d0d51122-c1ad-4929-be06-dd7f5d7049f6 ==============================
+[0m01:00:41.881063 [info ] [MainThread]: Running with dbt=1.10.5
+[0m01:00:41.881291 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init .', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:01:01.130908 [info ] [MainThread]: A project called marketing_ads_dbt already exists here.
+[0m01:01:01.135413 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 19.283306, "process_in_blocks": "0", "process_kernel_time": 0.083267, "process_mem_max_rss": "106053632", "process_out_blocks": "0", "process_user_time": 0.476656}
+[0m01:01:01.136198 [debug] [MainThread]: Command `dbt init` succeeded at 01:01:01.136061 after 19.28 seconds
+[0m01:01:01.136644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108aa48a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108aae9f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088996a0>]}
+[0m01:01:01.137080 [debug] [MainThread]: Flushing usage events
+[0m01:01:01.437678 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:01:27.634483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e83a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109397750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109397890>]}
+
+
+============================== 01:01:27.636921 | 38d1a5c2-b426-412c-96f9-5377f541aa3b ==============================
+[0m01:01:27.636921 [info ] [MainThread]: Running with dbt=1.10.5
+[0m01:01:27.637163 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init marketing_ads_dbt', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:01:27.642907 [debug] [MainThread]: Starter project path: /Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/include/starter_project
+[0m01:01:27.646717 [info ] [MainThread]: 
+Your new dbt project "marketing_ads_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:01:27.646952 [info ] [MainThread]: Setting up your profile.
+[0m01:02:13.606404 [error] [MainThread]: Encountered an error:
+
+[0m01:02:13.612870 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/task/init.py", line 346, in run
+    self.setup_profile(profile_name)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/task/init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/task/init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/task/init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/task/init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+                  ~~~~~~~~~~~~^
+        text, default=default, hide_input=hide_input, type=type
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/click/termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+  File "/Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/click/termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m01:02:13.616709 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 46.005863, "process_in_blocks": "0", "process_kernel_time": 0.098916, "process_mem_max_rss": "127713280", "process_out_blocks": "0", "process_user_time": 0.586733}
+[0m01:02:13.617771 [debug] [MainThread]: Command `dbt init` failed at 01:02:13.617654 after 46.01 seconds
+[0m01:02:13.618204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0a5f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f87d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f798c0>]}
+[0m01:02:13.618675 [debug] [MainThread]: Flushing usage events
+[0m01:02:13.982731 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:02:18.860382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e27a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10933b750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10933b890>]}
+
+
+============================== 01:02:18.862101 | 4e313bd0-e762-4734-ba8c-23ab6b9e3b9e ==============================
+[0m01:02:18.862101 [info ] [MainThread]: Running with dbt=1.10.5
+[0m01:02:18.862348 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init marketing_ads_dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:02:18.868007 [info ] [MainThread]: A project called marketing_ads_dbt already exists here.
+[0m01:02:18.868962 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.033712916, "process_in_blocks": "0", "process_kernel_time": 0.060423, "process_mem_max_rss": "106954752", "process_out_blocks": "0", "process_user_time": 0.452842}
+[0m01:02:18.869123 [debug] [MainThread]: Command `dbt init` succeeded at 01:02:18.869088 after 0.03 seconds
+[0m01:02:18.869239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093ec8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093f69f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091e16a0>]}
+[0m01:02:18.869359 [debug] [MainThread]: Flushing usage events
+[0m01:02:19.161963 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:02:30.448599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040cba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c43750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c43890>]}
+
+
+============================== 01:02:30.450317 | caf1557e-25ad-4166-8c71-cfa7599d5698 ==============================
+[0m01:02:30.450317 [info ] [MainThread]: Running with dbt=1.10.5
+[0m01:02:30.450564 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt init marketing_ads_dbt', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:02:30.455996 [debug] [MainThread]: Starter project path: /Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/lib/python3.13/site-packages/dbt/include/starter_project
+[0m01:02:30.458862 [info ] [MainThread]: 
+Your new dbt project "marketing_ads_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:02:30.459058 [info ] [MainThread]: Setting up your profile.
+[0m01:04:33.416890 [info ] [MainThread]: Profile marketing_ads_dbt written to /Users/dennis/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:04:33.424060 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 122.99882, "process_in_blocks": "0", "process_kernel_time": 0.101152, "process_mem_max_rss": "127156224", "process_out_blocks": "0", "process_user_time": 0.594214}
+[0m01:04:33.429058 [debug] [MainThread]: Command `dbt init` succeeded at 01:04:33.428789 after 123.00 seconds
+[0m01:04:33.431018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111211cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041a2450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110e97b0>]}
+[0m01:04:33.431656 [debug] [MainThread]: Flushing usage events
+[0m01:04:33.747382 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:04:39.479219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ec7a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073db750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073db890>]}
+
+
+============================== 01:04:39.481413 | 224f5413-32d7-4116-9919-0518b4e861fc ==============================
+[0m01:04:39.481413 [info ] [MainThread]: Running with dbt=1.10.5
+[0m01:04:39.481672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/dennis/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m01:04:39.490017 [info ] [MainThread]: dbt version: 1.10.5
+[0m01:04:39.490207 [info ] [MainThread]: python version: 3.13.5
+[0m01:04:39.490311 [info ] [MainThread]: python path: /Users/dennis/Library/Caches/pypoetry/virtualenvs/marketing-ads-dbt-JnqjFMSJ-py3.13/bin/python
+[0m01:04:39.490403 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit-Mach-O
+[0m01:04:39.639337 [info ] [MainThread]: Using profiles dir at /Users/dennis/.dbt
+[0m01:04:39.639537 [info ] [MainThread]: Using profiles.yml file at /Users/dennis/.dbt/profiles.yml
+[0m01:04:39.639644 [info ] [MainThread]: Using dbt_project.yml file at /Users/dennis/projects/marketing_ads_dbt/dbt_project.yml
+[0m01:04:39.639862 [info ] [MainThread]: adapter type: snowflake
+[0m01:04:39.639998 [info ] [MainThread]: adapter version: 1.10.0
+[0m01:04:39.640109 [info ] [MainThread]: Configuration:
+[0m01:04:39.640196 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m01:04:39.640283 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m01:04:39.640366 [info ] [MainThread]: Required dependencies:
+[0m01:04:39.640474 [debug] [MainThread]: Executing "git --help"
+[0m01:04:39.651966 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m01:04:39.652327 [debug] [MainThread]: STDERR: "b''"
+[0m01:04:39.652462 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m01:04:39.652586 [info ] [MainThread]: Connection:
+[0m01:04:39.652794 [info ] [MainThread]:   account: DGRMLDH-FT61206
+[0m01:04:39.652896 [info ] [MainThread]:   user: WPDNTMDBS
+[0m01:04:39.652983 [info ] [MainThread]:   database: ANALYTICS
+[0m01:04:39.653063 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m01:04:39.653144 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m01:04:39.653225 [info ] [MainThread]:   schema: MARKETING_ADS
+[0m01:04:39.653307 [info ] [MainThread]:   authenticator: None
+[0m01:04:39.653384 [info ] [MainThread]:   oauth_client_id: None
+[0m01:04:39.653469 [info ] [MainThread]:   query_tag: None
+[0m01:04:39.653549 [info ] [MainThread]:   client_session_keep_alive: False
+[0m01:04:39.653629 [info ] [MainThread]:   host: None
+[0m01:04:39.653707 [info ] [MainThread]:   port: None
+[0m01:04:39.653785 [info ] [MainThread]:   proxy_host: None
+[0m01:04:39.653862 [info ] [MainThread]:   proxy_port: None
+[0m01:04:39.653937 [info ] [MainThread]:   protocol: None
+[0m01:04:39.654012 [info ] [MainThread]:   connect_retries: 1
+[0m01:04:39.654090 [info ] [MainThread]:   connect_timeout: None
+[0m01:04:39.654168 [info ] [MainThread]:   retry_on_database_errors: False
+[0m01:04:39.654245 [info ] [MainThread]:   retry_all: False
+[0m01:04:39.654320 [info ] [MainThread]:   insecure_mode: False
+[0m01:04:39.654397 [info ] [MainThread]:   reuse_connections: True
+[0m01:04:39.654560 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m01:04:39.654852 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m01:04:39.697655 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m01:04:39.716249 [debug] [MainThread]: Using snowflake connection "debug"
+[0m01:04:39.716394 [debug] [MainThread]: On debug: select 1 as id
+[0m01:04:39.716518 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:04:40.571156 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.854 seconds
+[0m01:04:40.572607 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m01:04:40.573012 [info ] [MainThread]: [31m1 check failed:[0m
+[0m01:04:40.573230 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/dennis/projects/marketing_ads_dbt/dbt_project.yml> not found
+
+[0m01:04:40.576461 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.1234077, "process_in_blocks": "0", "process_kernel_time": 0.141938, "process_mem_max_rss": "144408576", "process_out_blocks": "0", "process_user_time": 0.640786}
+[0m01:04:40.577152 [debug] [MainThread]: Command `dbt debug` failed at 01:04:40.577015 after 1.12 seconds
+[0m01:04:40.577541 [debug] [MainThread]: Connection 'debug' was left open.
+[0m01:04:40.577821 [debug] [MainThread]: On debug: Close
+[0m01:04:40.766603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084415b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086d2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b3130>]}
+[0m01:04:40.767580 [debug] [MainThread]: Flushing usage events
+[0m01:04:41.058491 [debug] [MainThread]: An error was encountered while trying to flush usage events
