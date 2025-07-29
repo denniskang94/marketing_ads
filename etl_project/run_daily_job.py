@@ -11,3 +11,5 @@ result = defs.get_job_def("daily_gcs_job").execute_in_process(
         }
     }
 )
+filename = get_filename()
+print(f"🔍 Fetching file: {filename}")
